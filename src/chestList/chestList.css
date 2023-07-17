@@ -1,0 +1,46 @@
+
+
+.chest-list {
+    border: 2px solid red;
+    width: 100%;
+    
+}
+
+.chest-list-boxes {
+    margin: 10px;
+    border: 2px solid green;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;    
+}
+
+.chest-list-boxes-selected {
+    margin: 10px;
+    border: 4px solid rgb(184, 21, 61);
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;   
+    font-weight: bold;    
+}
+
+
+
+.chest-list-boxes img {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    border: 2px solid rgb(42, 69, 190);
+}
+
+.chest-list-boxes-selected img {
+    margin: 5px;
+    border: 2px solid rgb(42, 69, 190);
+    width: 30px;
+    height: 30px;
+  
+}
+
+ 

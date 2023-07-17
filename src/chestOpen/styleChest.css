@@ -1,0 +1,268 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+
+  .kostil {
+    display: flex;
+    justify-content: center;
+    width: 100%; 
+  }
+
+  .container {
+    border: 4px solid rgb(209, 23, 23);
+    width: 490px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4e4444;
+    display: flex;
+    justify-content: center;
+    height: 1000px;
+    margin-top: 50px;
+
+  }
+  
+  .button-container {
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    
+  }
+  
+  .button {
+    margin: 10px;
+    height: 30px;
+    width: 200px;
+  }
+
+  .headChest {
+    border: 4px solid rgb(209, 23, 23);
+    text-align: center;
+    width: 450px;
+    margin: 10px;
+    height: 500px;
+    
+  }
+
+  
+  
+  .reward-list-common {
+    border: 4px solid rgb(209, 23, 23);
+    list-style-type: none;
+    height: 100%;
+   
+    width: 450px;
+   
+    margin: 0px auto 10px;
+    background-image: url("../../public/img/commondropfullblack.png");
+    background-size: 500px 100px;
+  }
+
+  .reward-list-rare {
+    border: 4px solid rgb(209, 23, 23);
+    list-style-type: none;
+    height: 80%;
+    width: 450px;
+    margin: 0px auto 15px;
+    background-image: url("../../public/img/raredrop.png");
+    background-size: 500px 300px;
+  }
+
+  .reward-list-rare-black {
+    border: 4px solid rgb(209, 23, 23);
+    list-style-type: none;
+    height: 100%;
+    width: 450px;
+    margin: 0px auto 15px;
+    background-size: 500px 300px;
+    background-image: url("../../public/img/commondropfullblack.png");
+    
+  }
+  
+ 
+  .text-light {
+    color: #fff;
+    
+    
+  }
+
+ 
+
+  h3 {
+    text-align: center;
+    color: white;
+    margin: 0px 0px 20px 00px;
+    
+   
+  }
+
+  .page-container p {
+    color: white;
+    line-height: 25px; 
+    font-size: 12px;
+   
+    background-color: rgb(71, 68, 68);
+    
+  } 
+
+  .page-container img {
+    margin: 2px;
+    width: 48px;
+    height: 46px;
+    margin-right: 7px;
+  }
+
+  .ifNoImg {
+    margin: 2px;
+    width: 48px;
+    height: 46px;
+    margin-right: 7px;
+  }
+
+  .page-container input {
+    margin: 10px;
+  }
+
+  
+  
+  .rare {
+    align-items: center;
+    border: 2px solid rgb(209, 23, 23);
+    overflow-y: scroll;
+    height: 250px;
+    width: 425px;
+    margin: 10px;
+  }
+
+  .common {
+    align-items: center;
+    border: 2px solid rgb(209, 23, 23);
+    overflow-y: scroll;
+    height: 250px;
+    width: 425px;
+    margin: 10px;
+  }
+
+  .boxListInfo h4 {
+    text-align: center;
+   
+   }
+
+  .boxListInfo {
+     margin: 50px;
+     /* width: 20%; */
+     height: fit-content;
+     display: flex;   
+ }
+    
+
+  .inBoxListInfo {
+    border: 2px solid rgb(155, 98, 61);
+    background-color: aliceblue;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    height: fit-content;
+  }
+
+
+  li {
+    list-style-type: none;
+    margin: 4px;
+    
+  }
+
+  .backpackList {
+    margin: 50px;
+    /* width: 15%; */
+    border: 1px solid blue;
+    height: 1%;
+    display: flex;
+    flex-direction: column; /* Устанавливаем столбцовое направление для выравнивания h4 */
+    align-items: center; /* Выравнивание по центру по горизонтали */
+    background-color:rgb(206, 139, 39);
+ }
+
+   .backpackList h4 {
+    text-align: center;
+    width: 50%;
+    height: 1%;
+   }
+
+
+ .inbackpackList {
+  border: 2px solid rgb(155, 98, 61);
+  background-color: rgb(26, 35, 43);
+  width: 300px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.wrapperBackPack {
+  position: relative;
+  width: 50px; /* Фиксированная ширина элемента */  
+  height: 50px;
+ 
+}
+
+  .wrapperBackPack img {
+    margin: auto;
+    position: relative;
+    width: 100%;
+    height: 95%;
+    display: inline-block;
+    border: 1px solid rgb(255, 255, 255);
+  }
+
+  
+  
+  
+  .wrapperBackPack p {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 0px;
+  
+  }
+
+  .counter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: bold; 
+  }
+
+  body{ 
+    zoom: 80%
+  }
+
+  span {
+    text-align: center;
+    height: 1%;
+    color: rgb(253, 50, 50);
+    font-weight: bold;
+  }
+
+
+  .butRemove {
+    height: 40px;
+    width: 40px;
+    background-image: url("../../public/img/remove.png");
+    background-size: cover;
+    
+  }
+
+  .buttons {
+    width: 400px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .inpBut:active {
+    border: 1px solid rgb(7, 255, 40);
+  }
