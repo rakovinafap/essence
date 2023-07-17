@@ -11,7 +11,7 @@
   }
 
   .container {
-    border: 4px solid rgb(209, 23, 23);
+    border: 1px solid rgb(209, 105, 7);
     width: 490px;
     flex-direction: column;
     align-items: center;
@@ -27,7 +27,12 @@
     margin: 10px;
     height: 40px;
     width: 200px;
-    
+    cursor: pointer;
+    opacity: 1;
+  }
+
+  .button-container:hover {
+    opacity: 0.9;
   }
   
   .button {
@@ -37,7 +42,7 @@
   }
 
   .headChest {
-    border: 4px solid rgb(209, 23, 23);
+    border: 1px solid rgb(211, 171, 63);
     text-align: center;
     width: 450px;
     margin: 10px;
@@ -48,19 +53,17 @@
   
   
   .reward-list-common {
-    border: 4px solid rgb(209, 23, 23);
+    border: 2px solid rgb(124, 119, 114);
     list-style-type: none;
-    height: 100%;
-   
+    height: 90%;
     width: 450px;
-   
     margin: 0px auto 10px;
     background-image: url("../../public/img/commondropfullblack.png");
     background-size: 500px 100px;
   }
 
   .reward-list-rare {
-    border: 4px solid rgb(209, 23, 23);
+    border: 2px solid rgb(124, 119, 114);
     list-style-type: none;
     height: 80%;
     width: 450px;
@@ -70,7 +73,7 @@
   }
 
   .reward-list-rare-black {
-    border: 4px solid rgb(209, 23, 23);
+    border: 2px solid rgb(124, 119, 114);
     list-style-type: none;
     height: 100%;
     width: 450px;
@@ -83,6 +86,8 @@
  
   .text-light {
     color: #fff;
+    font-family:Arial, sans-serif
+    
     
     
   }
@@ -100,7 +105,7 @@
   .page-container p {
     color: white;
     line-height: 25px; 
-    font-size: 12px;
+    font-size: 13px;
    
     background-color: rgb(71, 68, 68);
     
@@ -128,25 +133,55 @@
   
   .rare {
     align-items: center;
-    border: 2px solid rgb(209, 23, 23);
+    border: 2px solid rgb(124, 119, 114);
     overflow-y: scroll;
-    height: 250px;
+    height: 280px;
     width: 425px;
     margin: 10px;
   }
+
+  .rare::-webkit-scrollbar {
+    width: 16px;
+}
+
+  .rare::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+  .rare::-webkit-scrollbar-thumb {
+    background-color: #cf9e58;
+    border-radius: 100px;
+}
 
   .common {
     align-items: center;
-    border: 2px solid rgb(209, 23, 23);
+    border: 2px solid rgb(124, 119, 114);
     overflow-y: scroll;
-    height: 250px;
+    height: 300px;
     width: 425px;
     margin: 10px;
   }
 
+
+  .common::-webkit-scrollbar {
+    width: 16px;
+}
+
+  .common::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 100px;
+}
+
+  .common::-webkit-scrollbar-thumb {
+    background-color: #d4aa70;
+    border-radius: 100px;
+}
+
   .boxListInfo h4 {
     text-align: center;
-   
+    font-size: 16px;
+    
    }
 
   .boxListInfo {
@@ -154,6 +189,8 @@
      /* width: 20%; */
      height: fit-content;
      display: flex;   
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
  }
     
 
@@ -164,6 +201,7 @@
     align-items: center;
     font-size: 13px;
     height: fit-content;
+    width: 600px;
   }
 
 
@@ -225,7 +263,7 @@
     background-color: transparent;
     font-size: 12px;
     line-height: 0px;
-  
+ 
   }
 
   .counter {
@@ -252,6 +290,7 @@
     width: 40px;
     background-image: url("../../public/img/remove.png");
     background-size: cover;
+    cursor: pointer;
     
   }
 
@@ -264,5 +303,16 @@
   }
 
   .inpBut:active {
+    opacity: 1;
     border: 1px solid rgb(7, 255, 40);
   }
+
+  .inpBut:hover {
+    opacity: 0.7;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.1);
+    cursor: pointer
+  }
+
+ 

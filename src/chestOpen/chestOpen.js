@@ -189,7 +189,7 @@ class ChestOpening extends Component {
         {selectedChest ? (
           <div className="boxListInfo">
           <div className="inBoxListInfo">
-            <h4>Шанс дропа из сундука: {selectedChestName}</h4>
+            <h4>{selectedChestName}</h4>
             {chest.map((chestInfo, index) => (
               <div key={index}>
                 <li>{chestInfo.item} / {(chestInfo.chance * 100).toFixed(5) + "%"}</li> {/* *100 */}
