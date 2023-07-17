@@ -4,15 +4,7 @@
  export const chestsMainImg = [
     { image: "https://l2central.info/upload/images/icon/etc_bm_jewelbox_main_i01.png", name: 'chestOfFullSeals', item: "Полный печатей сундук"},
     { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'mystiqueChest', item: "Мистический сундук"},
-    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'whatTheAghation', item: "Это что за агатион?"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest2', item: "Скелетон №2"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest3', item: "Скелетон №3"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest4', item: "Скелетон №4"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest5', item: "Скелетон №5"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest6', item: "Скелетон №6"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest7', item: "Скелетон №7"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest8', item: "Скелетон №8"},
-    { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'chest9', item: "Скелетон №9"},
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'whatTheAghation', item: "Это что за агатион?"}
     
 ]; 
 
