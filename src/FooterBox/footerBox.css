@@ -1,0 +1,30 @@
+ .footerBox {
+    background-color: rgb(73, 71, 68);
+    text-align: center;
+    height: 60px;
+    margin: 100px 0px 0px 0px;
+ }
+
+ .textInFooter {
+    color: rgb(212, 197, 197);
+    display: flex;
+    justify-content: center;
+    height: 20px;
+ }
+
+ .textInFooter span {
+    color: white;
+    opacity: 1;
+    cursor:grabbing;
+ }
+
+
+ 
+
+ .textInFooter span:hover {
+    opacity: 0.5;
+    color: rgb(106, 165, 111);
+    transform: skew(-110deg);
+ }
+
+ 

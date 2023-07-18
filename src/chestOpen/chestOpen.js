@@ -232,7 +232,7 @@ class ChestOpening extends Component {
               {rareRewards.map((item, index) => (
                 <p key={index} className="text-light">
                   <img src={item.image} align="left" alt=" " />
-                  {item.item} <br /> x{item.count}
+                   <p> {item.item} <br /> x{item.count}</p>
                 </p>
               ))}
             </div>
