@@ -2,14 +2,18 @@
     background-color: rgb(73, 71, 68);
     text-align: center;
     height: 60px;
-    margin: 100px 0px 0px 0px;
+    width: 100%;
+   /*  margin: 50px 0px 0px 50px; */
+   margin-top: 120px;
  }
 
  .textInFooter {
     color: rgb(212, 197, 197);
     display: flex;
     justify-content: center;
-    height: 20px;
+
+    height: 50%;
+    
  }
 
  .textInFooter span {
@@ -27,4 +31,5 @@
     transform: skew(-110deg);
  }
 
+ 
  

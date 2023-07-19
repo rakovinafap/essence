@@ -192,12 +192,14 @@ class ChestOpening extends Component {
             <h4>{selectedChestName}</h4>
             {chest.map((chestInfo, index) => (
               <div key={index}>
-                <li>{chestInfo.item} / {(chestInfo.chance * 100).toFixed(5) + "%"}</li> {/* *100 */}
+                <li>{chestInfo.item} - <span className='spanChance'>{(chestInfo.chance * 100).toFixed(5) + "%"}</span></li> {/* *100 */}
               </div>
             ))}
           </div>
         </div>
         ): null}
+
+      <div className="separator" />
          
         <div className="container">
           <div className="headChest">
@@ -250,7 +252,8 @@ class ChestOpening extends Component {
             </div>
           </div>
         </div>
-
+        
+        <div className="separator" />
          
             {selectedChest ? (
               <div className='backpackList'>

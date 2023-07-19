@@ -39,7 +39,9 @@ class ChestList extends Component {
             <p>{chest.item}</p>
           </div>
         ))}
+       
       </div>
+      
     );
   }
 }

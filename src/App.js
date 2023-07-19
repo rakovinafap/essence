@@ -19,7 +19,7 @@ function App(props) {
     <>
       <ChestList chests={chestsMainImg}  onChestSelect={handleChestSelect} />
       <ChestOpening selectedChest={selectedChest} />
-      <FooterBox/>
+      <FooterBox/> 
     </>
   );
 }
