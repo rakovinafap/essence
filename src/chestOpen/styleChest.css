@@ -202,13 +202,10 @@
    }
 
   .boxListInfo {
-     
-     width: 100%;
+    margin: 10px auto;
      height: fit-content;
      display: flex;   
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     
-    
+     font-family: Verdana, Geneva, Tahoma, sans-serif; 
  }
     
 
@@ -219,16 +216,8 @@
     align-items: center;
     font-size: 13px;
     height: fit-content;
-    width: 414px;
-    margin: 0px auto 0px;
-  }
-
-
-  li {
-    list-style-type: none;
-    margin: 2px;
-    font-size: 11px;
-    
+    /* width: 400px; */
+   
   }
 
   .backpackList {
@@ -242,13 +231,6 @@
     /* width: 450px; */
  }
 
-   .backpackList h4 {
-    text-align: center;
-    width: 50%;
-    height: 1%;
-   }
-
-
    .inbackpackList {
     border: 2px solid rgb(155, 98, 61);
     background-color: rgb(26, 35, 43);
@@ -256,8 +238,23 @@
     display: flex;
     flex-wrap: wrap;
     align-content: flex-start;
+  }
+
+
+  li {
+    list-style-type: none;
+    margin: 2px;
+    font-size: 11px;
     
   }
+
+  .backpackList h4 {
+    text-align: center;
+    width: 50%;
+    height: 1%;
+   }
+
+  
 
 .wrapperBackPack {
   position: relative;
@@ -553,15 +550,11 @@
    }
 
   .boxListInfo {
-     /* margin: 50px; */
-    /*  width: 400px; */
      height: fit-content;
      display: flex;   
-     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    
+     font-family:Verdana, Geneva, Tahoma, sans-serif;  
  }
     
-
   .inBoxListInfo {
     border: 2px solid rgb(155, 98, 61);
     background-color: aliceblue;
@@ -569,15 +562,7 @@
     align-items: center;
     font-size: 11px;
     height: fit-content;
-    width: 414px; 
-  }
-
-
-  li {
-    list-style-type: none;
-    margin: 4px;
-    font-size: 11px;
-    
+    width: 400px; 
   }
 
   .backpackList {
@@ -591,13 +576,6 @@
     width: 400px;
  }
 
-   .backpackList h4 {
-    text-align: center;
-    width: 50%;
-    height: 1%;
-   }
-
-
  .inbackpackList {
   border: 2px solid rgb(155, 98, 61);
   background-color: rgb(26, 35, 43);
@@ -607,6 +585,25 @@
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
+
+
+
+  li {
+    list-style-type: none;
+    margin: 4px;
+    font-size: 11px;
+    
+  }
+
+  .backpackList h4 {
+    text-align: center;
+    width: 50%;
+    height: 1%;
+   }
+
+
+  
 
 .wrapperBackPack {
   position: relative;
@@ -642,9 +639,6 @@
     font-weight: bold; 
   }
 
-  /* body{ 
-    zoom: 80%
-  } */
 
   span {
     text-align: center;
