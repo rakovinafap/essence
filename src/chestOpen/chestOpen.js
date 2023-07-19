@@ -184,7 +184,7 @@ class ChestOpening extends Component {
     
 
     return (
-      <div className={selectedChest === null ? "kostil" : "page-container"}>
+      <div className="page-container">
 
         {selectedChest ? (
           <div className="boxListInfo">
