@@ -1,5 +1,6 @@
 
-@media screen and (max-width: 768px) {
+
+@media screen and (max-width: 1024px) {
 
   body{ 
     zoom: 100%
@@ -22,7 +23,7 @@
 
   .container {
     border: 1px solid rgb(209, 105, 7);
-    width: 100%;
+   /*  width: 100%; */
     flex-direction: column;
     align-items: center;
     background-color: #4e4444;
@@ -35,6 +36,7 @@
     box-shadow: 24px 32px 46px 27px rgba(151, 163, 169, 0.2);
     order: 1;
     margin-right: 0;
+    margin: 10px auto;
 
   }
   
@@ -205,6 +207,7 @@
      height: fit-content;
      display: flex;   
      font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
     
  }
     
@@ -217,6 +220,7 @@
     font-size: 13px;
     height: fit-content;
     width: 414px;
+    margin: 0px auto 0px;
   }
 
 
@@ -354,17 +358,6 @@
     margin: 5px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
