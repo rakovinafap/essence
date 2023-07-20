@@ -4,7 +4,12 @@
  export const chestsMainImg = [
     { image: "https://l2central.info/upload/images/icon/etc_bm_jewelbox_main_i01.png", name: 'chestOfFullSeals', item: "Полный печатей сундук"},
     { image: "https://l2central.info/upload/images/icon/bm_sayha_present.png", name: 'mystiqueChest', item: "Мистический сундук"},
-    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'whatTheAghation', item: "Это что за агатион?"}
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'whatTheAghation', item: "Что за агатион?"},
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'chest3', item: "chest3"},
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'chest4', item: "chest4"},
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'chest5', item: "chest5"},
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'chest6', item: "chest6"},
+    { image: "https://l2central.info/upload/images/icon/bm_starter_package_agathion_i00.png", name: 'chest7', item: "chest7"}
     
 ]; 
 

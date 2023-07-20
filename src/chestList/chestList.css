@@ -1,77 +1,38 @@
-@media screen and (max-width: 768px) {
-    .chest-list {
-      display: flex;
-      flex-wrap: nowrap;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      /* margin: 20px auto; */
-    }
-  
-    .chest-list-boxes, .chest-list-boxes-selected {
-      width: 80px;
-      height: 80px;
-      margin: 10px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-    }
-  
-    .chest-list-boxes-selected {
-      border: 2px solid #ffcc00;
-    }
-  
-    .selectedBox {
-      width: 50px;
-      height: 50px;
-    }
-  
-    p {
-      font-size: 10px;
-      margin: 5px 0;
-    }
-  }
-
-
-
 
 .chest-list {
-    border: 2px solid red;
-    width: 100%;
-    cursor: pointer;
-    opacity: 1;
-    display: flex;
-    justify-content: center;
-    margin: 0px 0px 50px 0px;
+  border: 2px solid rgb(213, 214, 203);
+  width: 100%;
+  cursor: pointer;
+  opacity: 1;
+  display: grid; /* Изменение свойства display на grid */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Задание колонок с автоматическим переносом */
+  gap: 10px; /* Отступ между блоками */
+  justify-content: center;
+  margin: 0px 0px 50px 0px;
 }
 
 
 .chest-list-boxes {
-    margin: 10px;
-    border: 2px solid green;
-    width: 150px;
-    display: inline-block;
-    text-align: center;
-    font-size: 12px;
-    font-weight: bold;    
+  margin: 10px;
+  border: 2px solid rgb(66, 66, 65);
+  display: block; /* Измените "inline-block" на "block" */
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  
 }
 
 .chest-list-boxes-selected {
-    margin: 10px;
-    border: 2px solid rgb(184, 21, 61);
-    width: 150px;
-    display: inline-block;
-    text-align: center;
-    font-size: 12px;   
-    font-weight: bold;
-    opacity: 0.8;
-    -webkit-transform: scale(1.1);
-    -ms-transform: scale(1.1);
-    transform: scale(1.1); 
-
-    
+  margin: 15px;
+  border: 2px solid rgb(67, 184, 21);
+  display: block; /* Измените "inline-block" на "block" */
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+  opacity: 0.8;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 
@@ -92,4 +53,10 @@
     -ms-transform: scale(1.1);
     transform: scale(1.1); 
   
+}
+
+@media screen and (max-width: 820px) {
+  body {
+    zoom: 80%;
+  }
 }

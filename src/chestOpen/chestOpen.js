@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
-import {chestsMainImg,  chestOfFullSeals, mystiqueChest, whatTheAghation } from '../chestsData/chestData';
+import {chestsMainImg,  chestOfFullSeals, mystiqueChest, whatTheAghation, chest2 } from '../chestsData/chestData';
 import './styleChest.css';
 
  const allChests = {
   mystiqueChest: mystiqueChest,
   chestOfFullSeals: chestOfFullSeals,
   whatTheAghation: whatTheAghation,
+  chest2: chest2,
+  chest2: chest2,
+  chest2: chest2
   
   // Добавьте остальные сундуки здесь
 }; 
